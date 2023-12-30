@@ -4,6 +4,13 @@ button{
 }
 .one{
     color: red;
-    background-color: aliceblue;
     font-size: 36px;
+}
+.one,
+.two {
+    background-color: aliceblue;
+}
+.two{
+    color: blue;
+    font-size: 26px;
 }
