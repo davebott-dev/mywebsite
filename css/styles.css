@@ -1,16 +1,34 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+
 button{
     color: black;
     background-color: orange;
 }
+h4{
+    font-size: 20px;
+    font-weight: 400;
+}
 .one{
     color: red;
-    font-size: 36px;
 }
 .one,
 .two {
-    background-color: aliceblue;
+    font-size: 30px;
 }
 .two{
     color: blue;
-    font-size: 26px;
+}
+.apples {
+    height: 500;
+    width: auto;
+}
+ul li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: green;
+}
+h5{
+    font-size: 20px;
 }
