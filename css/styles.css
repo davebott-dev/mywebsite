@@ -1,14 +1,30 @@
 body{
     background-color: lightgoldenrodyellow;
 }
-
+/* asterick is a universal selector*/
+* {
+    padding: 10px;
+    margin: 0px;
+}
+/*padding, margin, border can position the text on a page using box model*/
 button{
     color: black;
     background-color: orange;
+    padding: 10px;
+    border: 10px solid red;
+    margin: 10px;
+    height: 100px;
+    width: auto;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    margin: 50px;
 }
 h4{
     font-size: 20px;
     font-weight: 400;
+    text-align: center;
 }
 .one{
     color: red;
