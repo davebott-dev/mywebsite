@@ -1,31 +1,39 @@
+/* margin can center content using settings below. padding seperates content from each other, border can add a border around content*/
 body{
     background-color: lightgoldenrodyellow;
+    width: 600px;
+    margin: 0 auto;
+    border: 5px solid black;
+    
+}
+
+html{
+    background-color: aliceblue;
 }
 /* asterick is a universal selector*/
 * {
     padding: 10px;
     margin: 0px;
     box-sizing: border-box;
+    text-align: center;
 }
 /*padding, margin, border can position the text on a page using box model*/
-button{
+button:hover{
     color: black;
     background-color: orange;
-    padding: 10px;
-    border: 10px solid red;
-    margin: 10px;
-    height: 50px;
+    border: 1px solid black;
     width: auto;
 }
 h1{
     text-align: center;
-    padding: 20px;
-    margin: 50px;
+    color: grey;
+    text-shadow: 3px 3px 1px black;
+
 }
 h4{
     font-size: 20px;
-    font-weight: 400;
     text-align: center;
+
 }
 .one{
     color: red;
@@ -37,9 +45,8 @@ h4{
 .two{
     color: blue;
 }
-.apples {
-    height: 500;
-    width: auto;
+img {
+    display: inline;
 }
 /*display inline causes text/content to appear side-by-side*/
 ul li {
