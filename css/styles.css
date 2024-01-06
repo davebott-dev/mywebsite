@@ -1,7 +1,7 @@
 /* margin can center content using settings below. padding seperates content from each other, border can add a border around content*/
 body{
     background-color: lightgoldenrodyellow;
-    width: 600px;
+    width: auto;
     margin: 0 auto;
     border: 5px solid black;
     
@@ -26,16 +26,14 @@ button:hover{
     padding: 0 auto;
 }
 h1{
-    text-align: center;
     color: grey;
     text-shadow: 3px 3px 1px black;
     margin: 0 auto;
-    padding: 30px;
+    padding: 50px;
 
 }
 h4{
     font-size: 20px;
-    text-align: center;
 
 }
 .one{
@@ -48,15 +46,14 @@ h4{
 .two{
     color: blue;
 }
-img {
-    display: inline;
-}
 /*display inline causes text/content to appear side-by-side*/
-ul li {
+.list{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     color: green;
-    display: inline;
+    display: flex;
+    list-style: none;
+    justify-content: center;
 }
 h5{
     font-size: 20px;
@@ -65,4 +62,18 @@ h5{
 .highlight{
     background-color: yellow;
     opacity: 0.6;
+}
+.navigation{
+    list-style: none;
+    display: flex;
+    flex-flow: row-reverse;
+    background-color: lightpink;
+    margin: -10px;
+}
+.navigation a {
+    text-decoration: none;
+    padding: 1em;
+}
+.navigation a:hover{
+    background-color: rgb(240, 135, 151);
 }
