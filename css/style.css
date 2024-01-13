@@ -4,7 +4,7 @@ html{
 }
 body{
     background-color: lightyellow;
-    border: 1px solid black;
+    border: 5px solid black;
     margin: 10px;
 }
 h1{
@@ -28,4 +28,19 @@ img {
     display: inline;
     margin-left: 130px;
 
+}
+.navigation{
+    list-style: none;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    background-color: lightpink;
+    padding: 20px;
+    gap: 20px;
+}
+.navigation a {
+    text-decoration: none;
+    padding: 1em;
+}
+.navigation a:hover{
+    background-color: rgb(240, 135, 151);
 }
